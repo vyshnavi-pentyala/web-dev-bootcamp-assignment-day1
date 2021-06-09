@@ -1,0 +1,24 @@
+<!--CREATE A BUTTON,WHEN YOU CLICK ON BUTTON SOME PORTION OF PARAGRAPH SHOULD BE UPDATED-->
+<!--span demo-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.letter {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+<p>
+	<span id="t1" style="background-color: green;">kits</span>engineering<span class="letter">college</span>
+	<button type="button" onclick="changetext()">changetext</button>
+	<script>
+		function changetext() {
+			document.getElementById('t1').innerHTML = "kkr and ksr institute of technology"
+		}
+	</script>
+</p>
+</body>
+</html>
