@@ -1,0 +1,17 @@
+<!--Write your name on Canvas using HTML and Javascript-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Name on Canvas</title>
+	</head>
+	<body>
+		<canvas id="c1" width="600" height="400" style="border:5px solid black">
+		</canvas>
+		<script>
+			var c=document.getElementById('c1');
+			cursor=c.getContext('2d');
+			cursor.font="40px Arial";
+			cursor.strokeText("vyshnavi",100,120);
+		</script>
+	</body>
+</html>
